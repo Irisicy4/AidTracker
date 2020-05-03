@@ -1,0 +1,21 @@
+@import '@styles/mixin.scss';
+@import '@styles/theme.scss';
+
+
+
+.box {
+  position: relative;
+
+  .title {
+    @include title;
+    display: block;
+    padding: 24px 0;
+  }
+
+  .link {
+    position: absolute;
+    right: 0;
+    top: 24px;
+    color: $font-link-color;
+  }
+}

@@ -1,0 +1,18 @@
+@import '@styles/mixin.scss';
+
+.title {
+  @include title;
+  display: block;
+  padding: 24px 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+
+  .sub-title {
+    font-weight: bold;
+    padding-bottom: 12px;
+  }
+}

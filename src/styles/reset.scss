@@ -1,0 +1,12 @@
+@import './theme.scss';
+
+page {
+  height: 100%;
+  background-color: $color-grey;
+  color: $font-tips-color;
+
+}
+
+.at-tabs__item {
+  font-weight: bold;
+}

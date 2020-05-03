@@ -1,0 +1,61 @@
+@import '@styles/theme.scss';
+
+Page {
+  background-color: white;
+}
+
+
+.banner {
+  height: 144px;
+  background-color: $color-brand;
+  font-size: 34px;
+  position: relative;
+
+  &>text {
+    color: $color-text-base-inverse;
+    position: absolute;
+    left: 38px;
+    bottom: 24px;
+  }
+}
+
+.detail-doing-top,
+.detail-doing-bottom {
+  padding: 12px 38px 0 38px;
+  font-size: 28px;
+  position: relative;
+}
+
+.dividing-line {
+  background-color: $color-grey;
+  height: 12px;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 29px;
+  background-color: white;
+
+  .btn {
+    color: $font-tips-color;
+    border: 1px solid $font-tips-color;
+    width: 300px;
+    height: 72px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+.fixed-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 14px;
+  box-shadow: 0px -4px 16px rgba(0, 0, 0, 0.09);
+}
+
+.occupy-position {
+  height: 200px;
+}

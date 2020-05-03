@@ -1,0 +1,12 @@
+@import '@styles/theme.scss';
+
+.card-status {
+  position: absolute;
+  top: 25px;
+  right: 22px;
+  border-radius: 29px;
+  padding: 11px 22px;
+  background-color: $color-status;
+  color: white;
+  font-size: 26px;
+}

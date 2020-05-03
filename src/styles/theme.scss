@@ -1,0 +1,27 @@
+/* Custom Theme */
+$color-brand: #f1dfa2;
+$color-brand-light: #f5e7b9;
+$color-brand-dark: #c1b282;
+$color-grey: #F5F5F5;
+$color-status: #454166;
+
+$font-color: #1a1515;
+$font-tips-color: #707070;
+$font-link-color: #598BFF;
+
+$color-text-base-inverse: #353535;
+
+// taro-ui 请按需引入需要的样式
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/activity-indicator.scss";
+@import '~taro-ui/dist/style/components/loading.scss';
+@import "~taro-ui/dist/style/components/progress.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/search-bar.scss";
+@import "~taro-ui/dist/style/components/tabs.scss";
+
+$h1: 42px;
+$h2: 36px;
+$h3: 32px;
+$h4: 28px;
+$h5: 24px;

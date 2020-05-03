@@ -1,0 +1,6 @@
+@import '@styles/mixin.scss';
+
+.card-title {
+  @include title;
+  width: calc(100% - 61Px);
+}

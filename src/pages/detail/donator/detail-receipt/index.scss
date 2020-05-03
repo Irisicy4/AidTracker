@@ -1,0 +1,30 @@
+@import '@styles/theme.scss';
+
+Page {
+  background-color: white;
+}
+
+.detail-receipt {
+  height: 100%;
+  padding: 12px 38px 0 38px;
+  font-size: 28px;
+  position: relative;
+
+  .tips {
+    padding-bottom: 24px;
+    font-size: 40px;
+    font-weight: bold;
+    color: $font-color;
+  }
+
+  .btn {
+    position: fixed;
+    left: 150px;
+    right: 150px;
+    bottom: 72px;
+  }
+
+  .occupy-position {
+    height: 200px;
+  }
+}

@@ -1,0 +1,7 @@
+@import './theme.scss';
+
+@mixin title {
+  font-size: 36px;
+  font-weight: bold;
+  color: $font-color;
+}

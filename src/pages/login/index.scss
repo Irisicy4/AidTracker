@@ -1,0 +1,36 @@
+@import '@styles/theme.scss';
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .logo {
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+    background: $color-grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    padding: 20px 0;
+    font-size: 36px;
+  }
+
+  .button {
+    margin-top: 250px;
+
+    .btn-top,
+    .btn-bottom {
+      width: 500px;
+    }
+
+    .btn-top {
+      margin-bottom: 30px;
+    }
+
+  }
+}

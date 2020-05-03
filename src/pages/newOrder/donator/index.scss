@@ -1,0 +1,41 @@
+@import '@styles/theme.scss';
+
+Page {
+  background-color: white;
+}
+
+.area{
+  margin-left: 38rpx;
+  margin-bottom: 48rpx;
+}
+
+.title{
+  color: #353535;
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-bottom: 8rpx;
+  font-family: "Segoe UI";
+}
+
+.subTitle{
+  font-family: "Segoe UI";
+  color: #353535;
+  font-size: 28rpx;
+  margin-top: 16px;
+}
+
+.input {
+  font-size: 28rpx;
+  border-radius: 8rpx;
+  border: 1rpx solid #707070;
+  width: 90%;
+  padding: 18rpx 22rpx;
+}
+
+
+.input input{
+  margin:auto 0;
+}
+
+
+

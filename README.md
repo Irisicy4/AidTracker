@@ -105,3 +105,38 @@ Explain your code style and show how to check it.
 
 If the api is external, link to api documentation. If not describe your api including authentication methods as well as explaining all the endpoints with their required parameters.
 
+
+
+# Aid Tracker
+
+> 请严格要求与对待
+
+## 开始
+
+- 安装 Taro 2.0.7
+
+```
+	npm install -g @tarojs/cli@2.0.7
+```
+
+- 安装项目配置,并执行
+
+```
+	npm install
+	npm run dev:weapp
+```
+
+- 执行 mock
+
+```
+	npm run mock
+```
+
+- 打开小程序开发者工具即可看到
+
+## 代码提交规范：
+
+- git add / git commit（commit 规范见下面）
+- git pull --rebase
+- git push
+
