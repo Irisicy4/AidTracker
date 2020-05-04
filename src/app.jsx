@@ -13,6 +13,7 @@ class App extends Component {
   config = {
     pages: [
       // 'pages/index/index',
+      // 'pages/edit/donator/donate-form/index',
       'pages/newOrder/donator/index',
       'pages/start/index',
       'pages/login/index',
@@ -22,7 +23,7 @@ class App extends Component {
       'pages/detail/donator/detail-receipt/index',
       'pages/detail/donator/detail-preparation/index',
       'pages/detail/donator/detail-doing/index',
-      'pages/edit/donator/donate-form/index',
+      // 'pages/edit/donator/donate-form/index',
       'pages/registered/index'
     ],
     window: {

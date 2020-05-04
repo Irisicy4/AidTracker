@@ -4,6 +4,17 @@ Page {
   background-color: white;
 }
 
+.notice{
+  margin-bottom: 24rpx;
+  background-color: #F5F5F5;
+  width:84%;
+  margin-left: 38rpx;
+  color:#707070;
+  font-family: 'Segoe UI';
+  font-size: 24rpx;
+  padding: 24rpx 22rpx;
+}
+
 .area{
   margin-left: 38rpx;
   margin-bottom: 48rpx;
@@ -28,14 +39,50 @@ Page {
   font-size: 28rpx;
   border-radius: 8rpx;
   border: 1rpx solid #707070;
-  width: 90%;
+  width: 89%;
   padding: 18rpx 22rpx;
 }
 
-
-.input input{
-  margin:auto 0;
+.inputNum {
+  font-size: 28rpx;
+  border-radius: 8rpx;
+  border: 1rpx solid #707070;
+  width: 324rpx;
+  padding: 18rpx 22rpx;
 }
+
+.inputPost{
+  font-size: 28rpx;
+  border-radius: 8rpx;
+  border: 1rpx solid #707070;
+  width: 55vw;
+  padding: 18rpx 18rpx;
+}
+
+.inputUnit{
+  font-size: 28rpx;
+  border-radius: 8rpx;
+  border: 1rpx solid #707070;
+  width: 60rpx;
+  padding: 18rpx 22rpx;
+}
+
+.boxArea{
+  padding: 24rpx 22rpx;
+  border: 1rpx solid #C5C5C5;
+  width: 86%;
+  margin-top: 6rpx;
+}
+
+.atTextarea{
+  border: 2rpx #707070 solid;
+  border-radius: 8rpx;
+  width: 57vw;
+  height: 136rpx;
+  white-space:normal;
+  padding: 18rpx 10rpx;
+}
+
 
 
 
