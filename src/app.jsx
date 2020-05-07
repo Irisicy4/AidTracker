@@ -14,6 +14,7 @@ class App extends Component {
     pages: [
       // 'pages/index/index',
       // 'pages/edit/donator/donate-form/index',
+      'pages/newOrder/detailDonator/index',
       'pages/newOrder/donator/index',
       'pages/start/index',
       'pages/login/index',

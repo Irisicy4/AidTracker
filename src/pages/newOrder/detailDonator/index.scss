@@ -1,0 +1,76 @@
+@import '@styles/mixin.scss';
+@import '@styles/theme.scss';
+
+Page {
+  background-color: white;
+}
+
+.detail-preparation {
+  height: 100%;
+  background-color: white;
+  padding: 28px 38px 0 38px;
+  font-size: 28px;
+  position: relative;
+
+  .top {
+    position: relative;
+    padding-top: 25px;
+  }
+
+  .center {
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .bottom {
+
+    .contact-details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      &>text {
+        padding: 5px 0;
+      }
+
+      &>text::before {
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background-color: $color-status;
+        border-radius: 50%;
+        margin-left: 26px;
+        margin-right: 26px;
+      }
+    }
+  }
+
+  // .btn {
+  //   // position: absolute;
+  //   // left: 150px;
+  //   // right: 150px;
+  //   // bottom: 72px;
+  //   margin-top: 91px;
+  //   padding-left: 150px;
+  //   padding-right: 150px;
+  //   padding-bottom: 72px;
+  // }
+  .btn {
+    position: fixed;
+    left: 150px;
+    right: 150px;
+    bottom: 72px;
+  }
+
+  .occupy-position {
+    height: 200px;
+  }
+}
+
+.title {
+  @include title;
+  padding-bottom: 24px;
+}
