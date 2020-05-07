@@ -172,6 +172,9 @@ export default class Index extends Component {
   postHandleChange=(e)=>{
     this.setState({post:e},()=>{console.log(this.state.post)});
   }
+  contactPersonNameHandleChange=(e)=>{
+    this.setState({contactPersonName:e},()=>{console.log(this.state.contactPersonName)});
+  }
   firstContactOnChange=(e)=>{
     if(this.state.firstSelected == '手机号'){
       this.setState({contactPersonPhone:e},()=>{console.log('contactPersonPhone',this.state.contactPersonPhone)})
@@ -253,11 +256,11 @@ export default class Index extends Component {
             <View className='boxArea'>
               <View style={{display:'flex',margin:'20rpx 0rpx'}}>
                 <View style={{color:'#353535',fontSize:'28rpx',padding:'20rpx',width:'152rpx',marginLeft:'20rpx'}}>联系人</View>
-                <AtInput className='inputPost' placeholder='请填入联系人姓名' value={this.state.post} onChange={this.postHandleChange.bind(this)}/>
+                <AtInput className='inputPost' placeholder='请填入联系人姓名' value={this.state.contactPersonName} onChange={this.contactPersonNameHandleChange.bind(this)}/>
               </View>
 
               <View style={{display:'flex',margin:'20rpx 0rpx'}} >
-                <View style={{color:'#353535',fontSize:'28rpx',padding:'20rpx',width:'152rpx',marginLeft:'20rpx',marginLeft:'20rpx'}}>联系方式</View>
+                <View>联系方式</View>
                 <View>
                   <Picker style={{padding:'15rpx 0rpx',fontSize:'28rpx',marginLeft:'20rpx'}} mode='selector' range={contactType} onChange={this.firstSelectedOnChange.bind(this)}>
                     <View className='picker'>
@@ -275,7 +278,7 @@ export default class Index extends Component {
                     <AtButton type="secondary" onClick={this.addContact} >添加联系方式</AtButton>
                   </View>
                 : <View style={{display:'flex'}} >
-                    <View tyle={{color:'#353535',fontSize:'28rpx',padding:'20rpx',width:'152rpx',marginLeft:'20rpx',marginLeft:'20rpx'}}>联系方式</View>
+                    <View >联系方式</View>
                     <View>
                       <Picker style={{padding:'15rpx 0rpx',fontSize:'28rpx',marginLeft:'20rpx'}} mode='selector' range={contactType} onChange={this.secondSelectedOnChange.bind(this)}>
                         <View className='picker'>
@@ -284,12 +287,16 @@ export default class Index extends Component {
                       </Picker>
                     </View>
                     <View>
-                      <AtInput className='input' type='text' placeholder='填入联系方式' value={this.state.firstSelected == '手机号'?this.state.contactPersonPhone:this.state.firstSelected == '微信号'?this.state.contactPersonWeChat:''} onChange={this.secondContactOnChange.bind(this)}  />
+                      <AtInput className='input' type='text' placeholder='填入联系方式' value={this.state.secondSelected == '手机号'?this.state.contactPersonPhone:this.state.secondSelected == '微信号'?this.state.contactPersonWeChat:''} onChange={this.secondContactOnChange.bind(this)}  />
                     </View>
                   </View>
               }
 
             </View>
+          </View>
+
+          <View style={{width:'80%',margin:'20rpx auto'}}>
+            <AtButton type='primary' style={{width:'100%'}} >提交申请</AtButton>
           </View>
 
         
