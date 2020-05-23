@@ -1,0 +1,51 @@
+@import '@styles/theme.scss';
+
+Page {
+  background-color: white;
+}
+
+
+.detail {
+  height: 144px;
+  background-color: $color-brand;
+  font-size: 34px;
+  position: relative;
+
+  &>text {
+    color: $color-text-base-inverse;
+    position: absolute;
+    left: 38px;
+    bottom: 24px;
+  }
+}
+
+.demand-top,
+.demand-bottom {
+  padding: 12px 38px 0 38px;
+  font-size: 28px;
+  position: relative;
+}
+
+.dividing-line {
+  background-color: $color-grey;
+  height: 12px;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 29px;
+  background-color: white;
+
+  .btn {
+    color: $font-tips-color;
+    border: 1px solid $font-tips-color;
+    width: 300px;
+    height: 72px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+
+
