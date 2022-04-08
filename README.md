@@ -17,18 +17,6 @@
 | 受赠方操作 | 发布个人需求<br/>管理个人需求 |批准／不批准捐赠项目<br/>查看发货与物流信息<br/>上传收货与认证 |更改用户信息<br/>身份验证<br/>更多捐赠帮助|
 
 
-## Getting started ／／to be edited
-
-A quick introduction of the minimal setup you need to get a hello world up &
-running.
-
-```shell
-commands here
-```
-Here you should say what actually happens when you execute the code above.
-
-## Developing
-
 ### Built With
 基于taro框架搭建的小程序应用
 基础表包括：
