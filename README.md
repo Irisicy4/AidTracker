@@ -1,6 +1,6 @@
 ![Logo](src/assets/images/logo.png)
 
-# AidTracker [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm) [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/npm) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE) //editing
+# AidTracker
 >帮助志愿者组织或个人进行一体化物资对接与追踪的项目管理平台
 
 发起成员在2020年1月至3月活跃在一些应对COVID-19危机的物资捐赠志愿者组织中。临时捐赠活动中出现的许多问题让我们发现了对捐赠对接项目管理云平台的需求。许多捐赠方 (特别缺乏经验的临时组织)在医院需求对接，货源核查，物资追踪，医院接受确认等流程中因信息收集渠道零散、对接不规范，浪费了许多人力物力。
